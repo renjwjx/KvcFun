@@ -10,6 +10,10 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+//- (int)fido;
+//- (void)setFido:(int)x;
+
+@property (readwrite, assign) int fido;
 
 @end
 
