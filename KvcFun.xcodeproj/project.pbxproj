@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED98AF81DD84C830070F016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED98AF71DD84C830070F016 /* AppDelegate.m */; };
+		EED98AFB1DD84C830070F016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED98AFA1DD84C830070F016 /* main.m */; };
+		EED98AFE1DD84C830070F016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED98AFD1DD84C830070F016 /* ViewController.m */; };
+		EED98B001DD84C830070F016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED98AFF1DD84C830070F016 /* Assets.xcassets */; };
+		EED98B031DD84C830070F016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED98B011DD84C830070F016 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EED98AF31DD84C830070F016 /* KvcFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KvcFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED98AF61DD84C830070F016 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EED98AF71DD84C830070F016 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EED98AFA1DD84C830070F016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED98AFC1DD84C830070F016 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EED98AFD1DD84C830070F016 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EED98AFF1DD84C830070F016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED98B021DD84C830070F016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED98B041DD84C830070F016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED98AF01DD84C830070F016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED98AEA1DD84C830070F016 = {
+			isa = PBXGroup;
+			children = (
+				EED98AF51DD84C830070F016 /* KvcFun */,
+				EED98AF41DD84C830070F016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED98AF41DD84C830070F016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED98AF31DD84C830070F016 /* KvcFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED98AF51DD84C830070F016 /* KvcFun */ = {
+			isa = PBXGroup;
+			children = (
+				EED98AF61DD84C830070F016 /* AppDelegate.h */,
+				EED98AF71DD84C830070F016 /* AppDelegate.m */,
+				EED98AFC1DD84C830070F016 /* ViewController.h */,
+				EED98AFD1DD84C830070F016 /* ViewController.m */,
+				EED98AFF1DD84C830070F016 /* Assets.xcassets */,
+				EED98B011DD84C830070F016 /* Main.storyboard */,
+				EED98B041DD84C830070F016 /* Info.plist */,
+				EED98AF91DD84C830070F016 /* Supporting Files */,
+			);
+			path = KvcFun;
+			sourceTree = "<group>";
+		};
+		EED98AF91DD84C830070F016 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EED98AFA1DD84C830070F016 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED98AF21DD84C830070F016 /* KvcFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED98B071DD84C830070F016 /* Build configuration list for PBXNativeTarget "KvcFun" */;
+			buildPhases = (
+				EED98AEF1DD84C830070F016 /* Sources */,
+				EED98AF01DD84C830070F016 /* Frameworks */,
+				EED98AF11DD84C830070F016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KvcFun;
+			productName = KvcFun;
+			productReference = EED98AF31DD84C830070F016 /* KvcFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED98AEB1DD84C830070F016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = jinren;
+				TargetAttributes = {
+					EED98AF21DD84C830070F016 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49XFPF8C85;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EED98AEE1DD84C830070F016 /* Build configuration list for PBXProject "KvcFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED98AEA1DD84C830070F016;
+			productRefGroup = EED98AF41DD84C830070F016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED98AF21DD84C830070F016 /* KvcFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED98AF11DD84C830070F016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED98B001DD84C830070F016 /* Assets.xcassets in Resources */,
+				EED98B031DD84C830070F016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED98AEF1DD84C830070F016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED98AFE1DD84C830070F016 /* ViewController.m in Sources */,
+				EED98AFB1DD84C830070F016 /* main.m in Sources */,
+				EED98AF81DD84C830070F016 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED98B011DD84C830070F016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED98B021DD84C830070F016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED98B051DD84C830070F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EED98B061DD84C830070F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EED98B081DD84C830070F016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = KvcFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.KvcFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EED98B091DD84C830070F016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = KvcFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.KvcFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED98AEE1DD84C830070F016 /* Build configuration list for PBXProject "KvcFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED98B051DD84C830070F016 /* Debug */,
+				EED98B061DD84C830070F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED98B071DD84C830070F016 /* Build configuration list for PBXNativeTarget "KvcFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED98B081DD84C830070F016 /* Debug */,
+				EED98B091DD84C830070F016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED98AEB1DD84C830070F016 /* Project object */;
+}
